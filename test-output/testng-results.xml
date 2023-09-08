@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="21" passed="19" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-05T22:36:27 IST" name="Loan Department" finished-at="2023-05-05T22:36:27 IST" duration-ms="68">
+    <groups>
+      <group name="Regression">
+        <method signature="Day1.MobileLoginGoldLoan(java.lang.String,java.lang.String)[pri:0, instance:TestNGTutorial.Day1@9f116cc]" name="MobileLoginGoldLoan" class="TestNGTutorial.Day1"/>
+        <method signature="Day2.MobileLoginPersonalLoan()[pri:1, instance:TestNGTutorial.Day2@4135c3b]" name="MobileLoginPersonalLoan" class="TestNGTutorial.Day2"/>
+        <method signature="Day3.MobileLoginCarLoan()[pri:2, instance:TestNGTutorial.Day3@55141def]" name="MobileLoginCarLoan" class="TestNGTutorial.Day3"/>
+        <method signature="Day4.MobileLoginHomeLoan()[pri:0, instance:TestNGTutorial.Day4@3e694b3f]" name="MobileLoginHomeLoan" class="TestNGTutorial.Day4"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2023-05-05T22:36:27 IST" name="Home Loan" finished-at="2023-05-05T22:36:27 IST" duration-ms="59">
+      <class name="TestNGTutorial.Day4">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestNGTutorial.Day4@3e694b3f]" started-at="2023-05-05T22:36:27 IST" name="launchBrowser" finished-at="2023-05-05T22:36:27 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.freecrm.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="APILoginHomeLoan()[pri:0, instance:TestNGTutorial.Day4@3e694b3f]" started-at="2023-05-05T22:36:27 IST" name="APILoginHomeLoan" finished-at="2023-05-05T22:36:27 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginHomeLoan -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNGTutorial.Day4@3e694b3f]" started-at="2023-05-05T22:36:27 IST" name="closeBrowser" finished-at="2023-05-05T22:36:27 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestNGTutorial.Day4@3e694b3f]" started-at="2023-05-05T22:36:27 IST" name="launchBrowser" finished-at="2023-05-05T22:36:27 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.freecrm.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="MobileLoginHomeLoan()[pri:0, instance:TestNGTutorial.Day4@3e694b3f]" started-at="2023-05-05T22:36:27 IST" name="MobileLoginHomeLoan" finished-at="2023-05-05T22:36:27 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHomeLoan -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNGTutorial.Day4@3e694b3f]" started-at="2023-05-05T22:36:27 IST" name="closeBrowser" finished-at="2023-05-05T22:36:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:TestNGTutorial.Day4@3e694b3f]" started-at="2023-05-05T22:36:27 IST" name="launchBrowser" finished-at="2023-05-05T22:36:27 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.freecrm.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="WebLoginHomeLoan()[pri:0, instance:TestNGTutorial.Day4@3e694b3f]" started-at="2023-05-05T22:36:27 IST" name="WebLoginHomeLoan" finished-at="2023-05-05T22:36:27 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginHomeLoan -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestNGTutorial.Day4@3e694b3f]" started-at="2023-05-05T22:36:27 IST" name="closeBrowser" finished-at="2023-05-05T22:36:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestNGTutorial.Day4 -->
+      <class name="TestNGTutorial.Day2">
+        <test-method is-config="true" signature="executeBeforeSuite()[pri:0, instance:TestNGTutorial.Day2@4135c3b]" started-at="2023-05-05T22:36:27 IST" name="executeBeforeSuite" finished-at="2023-05-05T22:36:27 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBeforeSuite -->
+        <test-method is-config="true" signature="executeAftereSuite()[pri:0, instance:TestNGTutorial.Day2@4135c3b]" started-at="2023-05-05T22:36:27 IST" name="executeAftereSuite" finished-at="2023-05-05T22:36:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeAftereSuite -->
+      </class> <!-- TestNGTutorial.Day2 -->
+    </test> <!-- Home Loan -->
+    <test started-at="2023-05-05T22:36:27 IST" name="Personal Loan" finished-at="2023-05-05T22:36:27 IST" duration-ms="67">
+      <class name="TestNGTutorial.Day">
+        <test-method signature="getLoan()[pri:0, instance:TestNGTutorial.Day@34a3d150]" started-at="2023-05-05T22:36:27 IST" name="getLoan" finished-at="2023-05-05T22:36:27 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLoan -->
+        <test-method signature="PersonalloanWebInterestTest()[pri:0, instance:TestNGTutorial.Day@34a3d150]" started-at="2023-05-05T22:36:27 IST" name="PersonalloanWebInterestTest" finished-at="2023-05-05T22:36:27 IST" depends-on-methods="TestNGTutorial.Day.getLoan" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PersonalloanWebInterestTest -->
+      </class> <!-- TestNGTutorial.Day -->
+      <class name="TestNGTutorial.Day2">
+        <test-method signature="APILoginPersonalLoan()[pri:0, instance:TestNGTutorial.Day2@4135c3b]" started-at="2023-05-05T22:36:27 IST" name="APILoginPersonalLoan" finished-at="2023-05-05T22:36:27 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginPersonalLoan -->
+        <test-method signature="WebLoginPersonalLoan()[pri:0, instance:TestNGTutorial.Day2@4135c3b]" started-at="2023-05-05T22:36:27 IST" name="WebLoginPersonalLoan" finished-at="2023-05-05T22:36:27 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginPersonalLoan -->
+        <test-method signature="MobileLoginPersonalLoan()[pri:1, instance:TestNGTutorial.Day2@4135c3b]" started-at="2023-05-05T22:36:27 IST" name="MobileLoginPersonalLoan" finished-at="2023-05-05T22:36:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginPersonalLoan -->
+      </class> <!-- TestNGTutorial.Day2 -->
+    </test> <!-- Personal Loan -->
+    <test started-at="2023-05-05T22:36:27 IST" name="Car Loan" finished-at="2023-05-05T22:36:27 IST" duration-ms="68">
+      <class name="TestNGTutorial.Day3">
+        <test-method is-config="true" signature="executeBeforeDay3()[pri:0, instance:TestNGTutorial.Day3@55141def]" started-at="2023-05-05T22:36:27 IST" name="executeBeforeDay3" finished-at="2023-05-05T22:36:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBeforeDay3 -->
+        <test-method signature="APILoginCarLoan()[pri:1, instance:TestNGTutorial.Day3@55141def]" started-at="2023-05-05T22:36:27 IST" name="APILoginCarLoan" finished-at="2023-05-05T22:36:27 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginCarLoan -->
+        <test-method signature="APILoginCarLoan()[pri:1, instance:TestNGTutorial.Day3@55141def]" started-at="2023-05-05T22:36:27 IST" name="APILoginCarLoan" finished-at="2023-05-05T22:36:27 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginCarLoan -->
+        <test-method signature="APILoginCarLoan()[pri:1, instance:TestNGTutorial.Day3@55141def]" started-at="2023-05-05T22:36:27 IST" name="APILoginCarLoan" finished-at="2023-05-05T22:36:27 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginCarLoan -->
+        <test-method signature="APILoginCarLoan()[pri:1, instance:TestNGTutorial.Day3@55141def]" started-at="2023-05-05T22:36:27 IST" name="APILoginCarLoan" finished-at="2023-05-05T22:36:27 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginCarLoan -->
+        <test-method signature="APILoginCarLoan()[pri:1, instance:TestNGTutorial.Day3@55141def]" started-at="2023-05-05T22:36:27 IST" name="APILoginCarLoan" finished-at="2023-05-05T22:36:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginCarLoan -->
+        <test-method signature="MobileLoginCarLoan()[pri:2, instance:TestNGTutorial.Day3@55141def]" started-at="2023-05-05T22:36:27 IST" name="MobileLoginCarLoan" finished-at="2023-05-05T22:36:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginCarLoan -->
+        <test-method signature="WebLoginCarLoan()[pri:3, instance:TestNGTutorial.Day3@55141def]" started-at="2023-05-05T22:36:27 IST" name="WebLoginCarLoan" finished-at="2023-05-05T22:36:27 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginCarLoan -->
+        <test-method is-config="true" signature="executeAfterDay3()[pri:0, instance:TestNGTutorial.Day3@55141def]" started-at="2023-05-05T22:36:27 IST" name="executeAfterDay3" finished-at="2023-05-05T22:36:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeAfterDay3 -->
+      </class> <!-- TestNGTutorial.Day3 -->
+    </test> <!-- Car Loan -->
+    <test started-at="2023-05-05T22:36:27 IST" name="Gold Loan" finished-at="2023-05-05T22:36:27 IST" duration-ms="56">
+      <class name="TestNGTutorial.Day1">
+        <test-method is-config="true" signature="DeleteallHistory()[pri:0, instance:TestNGTutorial.Day1@9f116cc]" started-at="2023-05-05T22:36:27 IST" name="DeleteallHistory" finished-at="2023-05-05T22:36:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteallHistory -->
+        <test-method signature="MobileLoginGoldLoan(java.lang.String,java.lang.String)[pri:0, instance:TestNGTutorial.Day1@9f116cc]" started-at="2023-05-05T22:36:27 IST" name="MobileLoginGoldLoan" data-provider="getData" finished-at="2023-05-05T22:36:27 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Minal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Minal@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginGoldLoan -->
+        <test-method signature="MobileLoginGoldLoan(java.lang.String,java.lang.String)[pri:0, instance:TestNGTutorial.Day1@9f116cc]" started-at="2023-05-05T22:36:27 IST" name="MobileLoginGoldLoan" data-provider="getData" finished-at="2023-05-05T22:36:27 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Prisha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Prisha@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginGoldLoan -->
+        <test-method signature="MobileLoginGoldLoan(java.lang.String,java.lang.String)[pri:0, instance:TestNGTutorial.Day1@9f116cc]" started-at="2023-05-05T22:36:27 IST" name="MobileLoginGoldLoan" data-provider="getData" finished-at="2023-05-05T22:36:27 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sandy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sandy@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginGoldLoan -->
+        <test-method signature="WebLoginGoldLoan(java.lang.String)[pri:0, instance:TestNGTutorial.Day1@9f116cc]" started-at="2023-05-05T22:36:27 IST" name="WebLoginGoldLoan" finished-at="2023-05-05T22:36:27 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginGoldLoan -->
+        <test-method is-config="true" signature="verifydata()[pri:0, instance:TestNGTutorial.Day1@9f116cc]" started-at="2023-05-05T22:36:27 IST" name="verifydata" finished-at="2023-05-05T22:36:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifydata -->
+      </class> <!-- TestNGTutorial.Day1 -->
+    </test> <!-- Gold Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>
